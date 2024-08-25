@@ -1,0 +1,100 @@
+.achievement-card {
+    border: 2px solid #006400;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+    margin-bottom: 20px;
+}
+
+.achievement-card img {
+    width: 80px;
+    height: auto;
+    margin-right: 15px;
+    margin-top: -10px;
+}
+
+.achievement-text {
+    font-weight: bold;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.image-and-text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.millet-image {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.text-under-image {
+    font-size: 14px;
+}
+
+.seed-image,
+.sorghum-image {
+    max-width: 80px;
+    height: auto;
+    align-self: flex-start;
+    margin-top: -10px;
+}
+
+.achievement-text {
+    margin: 0;
+}
+
+.large-text {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.medium-text {
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+.small-text {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+.modal-body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #006d42;
+}
+
+.modal-body p {
+    margin-bottom: 10px;
+}
+
+.modal-body strong {
+    color: #000;
+    font-size: 18px;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: none;
+}
